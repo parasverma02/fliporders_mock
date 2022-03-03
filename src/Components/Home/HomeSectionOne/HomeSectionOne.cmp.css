@@ -25,6 +25,7 @@
 .sectionOneText {
     font-size: 45px;
     font-weight: bolder;
+    color: #15286c;
 }
 
 .sectionOneText p {
@@ -76,8 +77,8 @@
 }
 
 .sectionOneImage {
-    width: 60%;
-    height: 80%;
+    width: 65%;
+    height: 85%;
     position: absolute;
     bottom: 0;
     right: 0;
