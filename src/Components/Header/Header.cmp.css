@@ -1,0 +1,43 @@
+.headerContainer {
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.mainLogoContainer {
+    display: flex;
+    width: 40%;
+    margin: 20px;
+}
+
+.mainLogoContainer img {
+    max-width: 80%;
+    max-height: 70%;
+    margin: auto;
+}
+
+.navigationContainer {
+    display: flex;
+    width: 40%;
+    margin: 20px;
+}
+
+.headerButtonContainer {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.headerButton {
+    background-color: #212171;
+    border-radius: 30px;
+    width: 180px;
+    height: 45px;
+    border-style: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+}
