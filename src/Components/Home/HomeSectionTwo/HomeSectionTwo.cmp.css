@@ -1,0 +1,29 @@
+.homeSectionTwoContainer {
+    display: flex;
+    height: 600px;
+    margin: 60px;
+    flex-flow: column;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.sectionTwoText {
+    margin: 10px auto 10px auto;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sectionTwoSubtext {
+    width: 80%;
+    margin: 10px auto 10px auto;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.sectionTwoBody {
+    display: flex;
+    flex-flow: row;
+    margin: 10px auto 10px auto;
+    /* justify-content: space-evenly; */
+}
