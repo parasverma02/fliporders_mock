@@ -1,20 +1,30 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
+import { responsiveComponent } from '@blast-engine/responsive-component';
+//
 import './Header.cmp.css';
 import NavigationBar from './NavigationBar/NavigationBar.cmp';
 import MainLogo from '../../Assets/logo-main.png';
 
-const Header = () => (
-  <div className="headerContainer">
-    <div className="mainLogoContainer">
-      <img src={MainLogo} alt="Main logo" />
+const Header = responsiveComponent(
+  ({ isMobile, sizeClass }) => (
+    <div className="headerContainer">
+      {/* <div>
+        {isMobile ? 'mobile' : 'not mobile'}
+        {' '}
+        {sizeClass}
+      </div> */}
+      <div className="mainLogoContainer">
+        <img src={MainLogo} alt="Main logo" />
+      </div>
+      <div className="navigationContainer">
+        <NavigationBar />
+      </div>
+      <div className="headerButtonContainer">
+        <button className="headerButton" type="button">Watch Demo</button>
+      </div>
     </div>
-    <div className="navigationContainer">
-      <NavigationBar />
-    </div>
-    <div className="headerButtonContainer">
-      <button className="headerButton" type="button">Watch Demo</button>
-    </div>
-  </div>
+  ),
 );
 
 export default Header;

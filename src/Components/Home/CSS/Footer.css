@@ -1,0 +1,14 @@
+.footer-container {
+    background-color: #a6a6f4;
+    display: flex;
+ justify-content: space-between;
+ padding: 25px 100px;
+ text-align: center;
+}
+.footer-container p {
+    font-size: 22px;
+    font-weight: 500;
+}
+.social-links-container > * {
+    margin: 0px 10px;
+}

@@ -1,0 +1,84 @@
+.value-main-section {
+    background-color: #172a68;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.value-main-section h1, .value-main-section h2 {
+    color: white;
+   
+}
+.value-main-section > h1 {
+    font-size: 58px;
+    padding: 20px;
+    padding-top: 108px;
+    margin: 0;
+}
+.accordion-container {
+    width: 65%;
+    margin: 35px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.accordion-heading {
+    display: flex;
+    justify-content: left;
+    padding: 24px 18px;
+    background-color: #192326;
+    align-items: center;
+}
+.accordion-heading > h2 {
+    font-size: 23px;
+}
+.accordion-heading > * {
+    margin: 0px 15px;
+}
+
+.accordion-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #a3b9e5;
+}
+
+
+
+.item-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+    width: 40%;
+}
+.item-container > * {
+    margin: 5px 5px;
+    padding: 35px 0px;
+}
+.item-container > span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.item-container > img {
+    width: 33px;
+}
+
+
+
+.accordion-content {
+        max-height: 0;
+        overflow: hidden;
+        
+        transition: max-height 0.5s ease-out;
+}
+
+.active .accordion-content {
+    max-height: 300px;
+    animation: fade 0.2s linear;
+}
+.active .accordion-content {
+    /* padding: 20px 0px; */
+
+}

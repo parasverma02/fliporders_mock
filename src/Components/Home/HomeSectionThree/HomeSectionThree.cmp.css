@@ -1,0 +1,67 @@
+.homeSectionThreeContainer {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #1a2c6e;
+    position: relative;
+    flex-flow: row;
+    box-sizing: border-box;
+}
+
+.homeSectionThreeBody {
+    margin: 50px 100px;
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    z-index: 10;
+}
+
+.homeSectionThreeTextBody {
+    width: 70%;
+    margin: auto 20px auto 150px;
+    display: flex;
+    flex-flow: column;
+}
+
+.sectionThreeHeading {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    display: flex;
+    width: 80%;
+    color: white;
+}
+.sectionThreeHeading p {
+    
+}
+.sectionThreeText {
+    font-size: 17px;
+    font-weight: 600;
+    width: 85%;
+    color: rgb(232, 232, 232);
+}
+.sectionThreeText p{
+   line-height: 25px;
+}
+.homeSectionThreeMobileImage {
+    display: flex;
+    width: 40%;
+}
+
+.homeSectionThreeMobileImage img {
+    width: 62%;
+    height: 95%;
+}
+.homeSectionThreeBackgroundImage {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.homeSectionThreeBackgroundImage img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

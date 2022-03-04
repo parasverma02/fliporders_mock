@@ -1,0 +1,21 @@
+.platform-main-container h1 {
+    font-size: 58px;
+    width: 68%;
+    margin: 96px auto 20px;
+}
+.platform-main-container p {
+    font-size: 25px;
+    width: 75%;
+    margin: 40px auto;
+
+}
+
+
+.platform-main-container > img {
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.app-store-container img {
+    margin-bottom: 100px;
+}

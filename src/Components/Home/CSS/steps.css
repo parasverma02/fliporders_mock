@@ -1,0 +1,35 @@
+.steps-section-container {
+    padding: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.steps-section-container > h2 {
+    color: #172a68;
+    font-size: 60px;
+    width: 70%;
+    margin: 112px auto 0px;
+    
+
+}
+
+.steps-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+}
+.step-container > p {
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
+.step-container {
+    /* margin: 10px; */
+    width: 37%;
+    padding: 0px 20px;
+    margin-top: 48px;
+}
+.step-description {
+    color: #949494;
+}
