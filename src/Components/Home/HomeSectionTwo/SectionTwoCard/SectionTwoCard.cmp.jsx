@@ -1,21 +1,19 @@
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
 import React from 'react';
 import './SectionTwoCard.cmp.css';
-import FastIcon from '../../../../Assets/fast-icon-01.png';
 
-const SectionTwoCard = () => (
+const SectionTwoCard = ({ imageName, heading, content }) => (
   <div className="cardContainer">
     <div className="cardImage">
-      <img src={FastIcon} alt="Fast icon" />
+      <img src={require(`../../../../Assets/${imageName}`)} alt="icon" />
     </div>
     <div className="cardHeading">
-      <p>Pre-order, pickup and Delivery Functionalities</p>
+      <p>{heading}</p>
     </div>
     <div className="cardBody">
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-        natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus.
+        {content}
       </p>
     </div>
   </div>

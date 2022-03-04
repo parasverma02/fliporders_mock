@@ -1,6 +1,6 @@
 .homeSectionTwoContainer {
     display: flex;
-    height: 600px;
+    min-height: 600px;
     margin: 60px;
     flex-flow: column;
     box-sizing: border-box;
@@ -23,7 +23,7 @@
 
 .sectionTwoBody {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     margin: 10px auto 10px auto;
     /* justify-content: space-evenly; */
 }

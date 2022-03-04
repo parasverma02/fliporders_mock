@@ -1,0 +1,8 @@
+.navigationItem {
+    margin: 5px;
+}
+
+.navigationItem a {
+    text-decoration: none;
+    color: black;
+}

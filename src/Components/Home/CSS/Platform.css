@@ -10,12 +10,16 @@
 
 }
 
-
 .platform-main-container > img {
     width: 50%;
-    margin-bottom: 80px;
+    display: block;
+    margin: 0px auto 80px;
 }
-
+.app-store-container {
+    display: flex;
+    justify-content: center;
+}
 .app-store-container img {
     margin-bottom: 100px;
+    
 }

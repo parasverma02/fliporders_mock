@@ -3,7 +3,7 @@ import React from 'react';
 import { responsiveComponent } from '@blast-engine/responsive-component';
 //
 import './Header.cmp.css';
-import NavigationBar from './NavigationBar/NavigationBar.cmp';
+import NavigationItems from './NavigationItems/NavigationItems.cmp';
 import MainLogo from '../../Assets/logo-main.png';
 
 const Header = responsiveComponent(
@@ -18,7 +18,7 @@ const Header = responsiveComponent(
         <img src={MainLogo} alt="Main logo" />
       </div>
       <div className="navigationContainer">
-        <NavigationBar />
+        <NavigationItems />
       </div>
       <div className="headerButtonContainer">
         <button className="headerButton" type="button">Watch Demo</button>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from './Accordion';
+import '../../CSS/value.css';
 
 const Value = () => {
   const accordionSections = [
